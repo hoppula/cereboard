@@ -1,14 +1,14 @@
 # Cereboard
 
-This simple example shows how one would begin to construct a discussion forum with cerebellum.
+This simple example shows how one would begin to construct a discussion forum with [Cerebellum](https://github.com/SC5/cerebellum).
 
 This example uses a newly added feature that enables us to define which data to load directly in view components.
 
-Categories, Board & Thread components declare their data sources with static **fetch** method. This enables us to keep
-routes clear of **store.fetch** calls and you can instantly see what data the components use. Components are still also
-fully reusable in other contexts.
+[Categories](https://github.com/hoppula/cereboard/blob/master/components/categories.js), [Board](https://github.com/hoppula/cereboard/blob/master/components/board.js) & [Thread](https://github.com/hoppula/cereboard/blob/master/components/thread.js) components declare their data sources with static **fetch** method.
 
-Check out **routes.js**, routing can't get much simpler :)
+This enables us to keep our routes clear of **store.fetch** calls and you can instantly see what data the components use. Components are still also fully reusable in other contexts.
+
+Check out **[routes.js](https://github.com/hoppula/cereboard/blob/master/routes.js)**, isomorphic routing can't get much simpler :)
 
 ## Initial steps
 
